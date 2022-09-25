@@ -1,0 +1,720 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Base_System Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Base_System",
+				"Linux",
+				"Debug",
+				"/home/main/Unreal_Projects/Base_System/Base_System.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/main/Programs/unreal-engine"
+			}
+		},
+		{
+			"label": "Base_System Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Base_System",
+				"Linux",
+				"Debug",
+				"/home/main/Unreal_Projects/Base_System/Base_System.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Base_System Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/main/Programs/unreal-engine"
+			}
+		},
+		{
+			"label": "Base_System Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Base_System",
+				"Linux",
+				"Debug",
+				"/home/main/Unreal_Projects/Base_System/Base_System.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/main/Programs/unreal-engine"
+			}
+		},
+		{
+			"label": "Base_System Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Base_System",
+				"Linux",
+				"DebugGame",
+				"/home/main/Unreal_Projects/Base_System/Base_System.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/main/Programs/unreal-engine"
+			}
+		},
+		{
+			"label": "Base_System Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Base_System",
+				"Linux",
+				"DebugGame",
+				"/home/main/Unreal_Projects/Base_System/Base_System.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Base_System Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/main/Programs/unreal-engine"
+			}
+		},
+		{
+			"label": "Base_System Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Base_System",
+				"Linux",
+				"DebugGame",
+				"/home/main/Unreal_Projects/Base_System/Base_System.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/main/Programs/unreal-engine"
+			}
+		},
+		{
+			"label": "Base_System Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Base_System",
+				"Linux",
+				"Development",
+				"/home/main/Unreal_Projects/Base_System/Base_System.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/main/Programs/unreal-engine"
+			}
+		},
+		{
+			"label": "Base_System Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Base_System",
+				"Linux",
+				"Development",
+				"/home/main/Unreal_Projects/Base_System/Base_System.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Base_System Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/main/Programs/unreal-engine"
+			}
+		},
+		{
+			"label": "Base_System Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Base_System",
+				"Linux",
+				"Development",
+				"/home/main/Unreal_Projects/Base_System/Base_System.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/main/Programs/unreal-engine"
+			}
+		},
+		{
+			"label": "Base_System Linux Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Base_System",
+				"Linux",
+				"Test",
+				"/home/main/Unreal_Projects/Base_System/Base_System.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/main/Programs/unreal-engine"
+			}
+		},
+		{
+			"label": "Base_System Linux Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Base_System",
+				"Linux",
+				"Test",
+				"/home/main/Unreal_Projects/Base_System/Base_System.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Base_System Linux Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/main/Programs/unreal-engine"
+			}
+		},
+		{
+			"label": "Base_System Linux Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Base_System",
+				"Linux",
+				"Test",
+				"/home/main/Unreal_Projects/Base_System/Base_System.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/main/Programs/unreal-engine"
+			}
+		},
+		{
+			"label": "Base_System Linux Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Base_System",
+				"Linux",
+				"Shipping",
+				"/home/main/Unreal_Projects/Base_System/Base_System.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/main/Programs/unreal-engine"
+			}
+		},
+		{
+			"label": "Base_System Linux Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Base_System",
+				"Linux",
+				"Shipping",
+				"/home/main/Unreal_Projects/Base_System/Base_System.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Base_System Linux Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/main/Programs/unreal-engine"
+			}
+		},
+		{
+			"label": "Base_System Linux Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Base_System",
+				"Linux",
+				"Shipping",
+				"/home/main/Unreal_Projects/Base_System/Base_System.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/main/Programs/unreal-engine"
+			}
+		},
+		{
+			"label": "Base_System LinuxArm64 Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Base_System",
+				"LinuxArm64",
+				"Debug",
+				"/home/main/Unreal_Projects/Base_System/Base_System.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/main/Programs/unreal-engine"
+			}
+		},
+		{
+			"label": "Base_System LinuxArm64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Base_System",
+				"LinuxArm64",
+				"Debug",
+				"/home/main/Unreal_Projects/Base_System/Base_System.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Base_System LinuxArm64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/main/Programs/unreal-engine"
+			}
+		},
+		{
+			"label": "Base_System LinuxArm64 Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Base_System",
+				"LinuxArm64",
+				"Debug",
+				"/home/main/Unreal_Projects/Base_System/Base_System.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/main/Programs/unreal-engine"
+			}
+		},
+		{
+			"label": "Base_System LinuxArm64 DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Base_System",
+				"LinuxArm64",
+				"DebugGame",
+				"/home/main/Unreal_Projects/Base_System/Base_System.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/main/Programs/unreal-engine"
+			}
+		},
+		{
+			"label": "Base_System LinuxArm64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Base_System",
+				"LinuxArm64",
+				"DebugGame",
+				"/home/main/Unreal_Projects/Base_System/Base_System.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Base_System LinuxArm64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/main/Programs/unreal-engine"
+			}
+		},
+		{
+			"label": "Base_System LinuxArm64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Base_System",
+				"LinuxArm64",
+				"DebugGame",
+				"/home/main/Unreal_Projects/Base_System/Base_System.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/main/Programs/unreal-engine"
+			}
+		},
+		{
+			"label": "Base_System LinuxArm64 Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Base_System",
+				"LinuxArm64",
+				"Development",
+				"/home/main/Unreal_Projects/Base_System/Base_System.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/main/Programs/unreal-engine"
+			}
+		},
+		{
+			"label": "Base_System LinuxArm64 Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Base_System",
+				"LinuxArm64",
+				"Development",
+				"/home/main/Unreal_Projects/Base_System/Base_System.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Base_System LinuxArm64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/main/Programs/unreal-engine"
+			}
+		},
+		{
+			"label": "Base_System LinuxArm64 Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Base_System",
+				"LinuxArm64",
+				"Development",
+				"/home/main/Unreal_Projects/Base_System/Base_System.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/main/Programs/unreal-engine"
+			}
+		},
+		{
+			"label": "Base_System LinuxArm64 Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Base_System",
+				"LinuxArm64",
+				"Test",
+				"/home/main/Unreal_Projects/Base_System/Base_System.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/main/Programs/unreal-engine"
+			}
+		},
+		{
+			"label": "Base_System LinuxArm64 Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Base_System",
+				"LinuxArm64",
+				"Test",
+				"/home/main/Unreal_Projects/Base_System/Base_System.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Base_System LinuxArm64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/main/Programs/unreal-engine"
+			}
+		},
+		{
+			"label": "Base_System LinuxArm64 Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Base_System",
+				"LinuxArm64",
+				"Test",
+				"/home/main/Unreal_Projects/Base_System/Base_System.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/main/Programs/unreal-engine"
+			}
+		},
+		{
+			"label": "Base_System LinuxArm64 Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Base_System",
+				"LinuxArm64",
+				"Shipping",
+				"/home/main/Unreal_Projects/Base_System/Base_System.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/main/Programs/unreal-engine"
+			}
+		},
+		{
+			"label": "Base_System LinuxArm64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Base_System",
+				"LinuxArm64",
+				"Shipping",
+				"/home/main/Unreal_Projects/Base_System/Base_System.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Base_System LinuxArm64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/main/Programs/unreal-engine"
+			}
+		},
+		{
+			"label": "Base_System LinuxArm64 Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Base_System",
+				"LinuxArm64",
+				"Shipping",
+				"/home/main/Unreal_Projects/Base_System/Base_System.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/main/Programs/unreal-engine"
+			}
+		},
+		{
+			"label": "Base_SystemEditor Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Base_SystemEditor",
+				"Linux",
+				"Debug",
+				"/home/main/Unreal_Projects/Base_System/Base_System.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/main/Programs/unreal-engine"
+			}
+		},
+		{
+			"label": "Base_SystemEditor Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Base_SystemEditor",
+				"Linux",
+				"Debug",
+				"/home/main/Unreal_Projects/Base_System/Base_System.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Base_SystemEditor Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/main/Programs/unreal-engine"
+			}
+		},
+		{
+			"label": "Base_SystemEditor Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Base_SystemEditor",
+				"Linux",
+				"Debug",
+				"/home/main/Unreal_Projects/Base_System/Base_System.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/main/Programs/unreal-engine"
+			}
+		},
+		{
+			"label": "Base_SystemEditor Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Base_SystemEditor",
+				"Linux",
+				"DebugGame",
+				"/home/main/Unreal_Projects/Base_System/Base_System.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/main/Programs/unreal-engine"
+			}
+		},
+		{
+			"label": "Base_SystemEditor Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Base_SystemEditor",
+				"Linux",
+				"DebugGame",
+				"/home/main/Unreal_Projects/Base_System/Base_System.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Base_SystemEditor Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/main/Programs/unreal-engine"
+			}
+		},
+		{
+			"label": "Base_SystemEditor Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Base_SystemEditor",
+				"Linux",
+				"DebugGame",
+				"/home/main/Unreal_Projects/Base_System/Base_System.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/main/Programs/unreal-engine"
+			}
+		},
+		{
+			"label": "Base_SystemEditor Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Base_SystemEditor",
+				"Linux",
+				"Development",
+				"/home/main/Unreal_Projects/Base_System/Base_System.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/main/Programs/unreal-engine"
+			}
+		},
+		{
+			"label": "Base_SystemEditor Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Base_SystemEditor",
+				"Linux",
+				"Development",
+				"/home/main/Unreal_Projects/Base_System/Base_System.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Base_SystemEditor Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/main/Programs/unreal-engine"
+			}
+		},
+		{
+			"label": "Base_SystemEditor Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Base_SystemEditor",
+				"Linux",
+				"Development",
+				"/home/main/Unreal_Projects/Base_System/Base_System.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/main/Programs/unreal-engine"
+			}
+		}
+	]
+}

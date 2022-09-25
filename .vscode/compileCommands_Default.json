@@ -1,0 +1,102 @@
+[
+	{
+		"file": "/home/main/Unreal_Projects/Base_System/Plugins/Developer/RiderSourceCodeAccess/Source/RiderSourceCodeAccess/Private/RiderPathLocator/Common/RiderPathLocator.cpp",
+		"command": "/home/main/Programs/unreal-engine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @/home/main/Unreal_Projects/Base_System/.vscode/compileCommands_Default/RiderSourceCodeAccess.34.rsp",
+		"directory": "/home/main/Programs/unreal-engine/Engine/Source"
+	},
+	{
+		"file": "/home/main/Unreal_Projects/Base_System/Plugins/Developer/RiderSourceCodeAccess/Source/RiderSourceCodeAccess/Private/RiderPathLocator/Linux/RiderPathLocatorLinux.cpp",
+		"command": "/home/main/Programs/unreal-engine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @/home/main/Unreal_Projects/Base_System/.vscode/compileCommands_Default/RiderSourceCodeAccess.34.rsp",
+		"directory": "/home/main/Programs/unreal-engine/Engine/Source"
+	},
+	{
+		"file": "/home/main/Unreal_Projects/Base_System/Plugins/Developer/RiderSourceCodeAccess/Source/RiderSourceCodeAccess/Private/RiderPathLocator/Mac/RiderPathLocatorMac.cpp",
+		"command": "/home/main/Programs/unreal-engine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @/home/main/Unreal_Projects/Base_System/.vscode/compileCommands_Default/RiderSourceCodeAccess.34.rsp",
+		"directory": "/home/main/Programs/unreal-engine/Engine/Source"
+	},
+	{
+		"file": "/home/main/Unreal_Projects/Base_System/Plugins/Developer/RiderSourceCodeAccess/Source/RiderSourceCodeAccess/Private/RiderPathLocator/RiderPathLocator.h",
+		"command": "/home/main/Programs/unreal-engine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @/home/main/Unreal_Projects/Base_System/.vscode/compileCommands_Default/RiderSourceCodeAccess.34.rsp",
+		"directory": "/home/main/Programs/unreal-engine/Engine/Source"
+	},
+	{
+		"file": "/home/main/Unreal_Projects/Base_System/Plugins/Developer/RiderSourceCodeAccess/Source/RiderSourceCodeAccess/Private/RiderPathLocator/Win/RiderPathLocatorWin.cpp",
+		"command": "/home/main/Programs/unreal-engine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @/home/main/Unreal_Projects/Base_System/.vscode/compileCommands_Default/RiderSourceCodeAccess.34.rsp",
+		"directory": "/home/main/Programs/unreal-engine/Engine/Source"
+	},
+	{
+		"file": "/home/main/Unreal_Projects/Base_System/Plugins/Developer/RiderSourceCodeAccess/Source/RiderSourceCodeAccess/Private/RiderSourceCodeAccessor.cpp",
+		"command": "/home/main/Programs/unreal-engine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @/home/main/Unreal_Projects/Base_System/.vscode/compileCommands_Default/RiderSourceCodeAccess.34.rsp",
+		"directory": "/home/main/Programs/unreal-engine/Engine/Source"
+	},
+	{
+		"file": "/home/main/Unreal_Projects/Base_System/Plugins/Developer/RiderSourceCodeAccess/Source/RiderSourceCodeAccess/Private/RiderSourceCodeAccessor.h",
+		"command": "/home/main/Programs/unreal-engine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @/home/main/Unreal_Projects/Base_System/.vscode/compileCommands_Default/RiderSourceCodeAccess.34.rsp",
+		"directory": "/home/main/Programs/unreal-engine/Engine/Source"
+	},
+	{
+		"file": "/home/main/Unreal_Projects/Base_System/Plugins/Developer/RiderSourceCodeAccess/Source/RiderSourceCodeAccess/Private/RiderSourceCodeAccessorModule.cpp",
+		"command": "/home/main/Programs/unreal-engine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @/home/main/Unreal_Projects/Base_System/.vscode/compileCommands_Default/RiderSourceCodeAccess.34.rsp",
+		"directory": "/home/main/Programs/unreal-engine/Engine/Source"
+	},
+	{
+		"file": "/home/main/Unreal_Projects/Base_System/Plugins/Developer/RiderSourceCodeAccess/Source/RiderSourceCodeAccess/Private/RiderSourceCodeAccessorModule.h",
+		"command": "/home/main/Programs/unreal-engine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @/home/main/Unreal_Projects/Base_System/.vscode/compileCommands_Default/RiderSourceCodeAccess.34.rsp",
+		"directory": "/home/main/Programs/unreal-engine/Engine/Source"
+	},
+	{
+		"file": "/home/main/Unreal_Projects/Base_System/Plugins/Developer/RiderSourceCodeAccess/Source/RiderSourceCodeAccess/RiderSourceCodeAccess.Build.cs",
+		"command": "/home/main/Programs/unreal-engine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @/home/main/Unreal_Projects/Base_System/.vscode/compileCommands_Default/RiderSourceCodeAccess.34.rsp",
+		"directory": "/home/main/Programs/unreal-engine/Engine/Source"
+	},
+	{
+		"file": "/home/main/Unreal_Projects/Base_System/Source/Base_System/Base_System.Build.cs",
+		"command": "/home/main/Programs/unreal-engine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @/home/main/Unreal_Projects/Base_System/.vscode/compileCommands_Default/Base_System.207.rsp",
+		"directory": "/home/main/Programs/unreal-engine/Engine/Source"
+	},
+	{
+		"file": "/home/main/Unreal_Projects/Base_System/Source/Base_System/Base_System.cpp",
+		"command": "/home/main/Programs/unreal-engine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @/home/main/Unreal_Projects/Base_System/.vscode/compileCommands_Default/Base_System.207.rsp",
+		"directory": "/home/main/Programs/unreal-engine/Engine/Source"
+	},
+	{
+		"file": "/home/main/Unreal_Projects/Base_System/Source/Base_System/Base_System.h",
+		"command": "/home/main/Programs/unreal-engine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @/home/main/Unreal_Projects/Base_System/.vscode/compileCommands_Default/Base_System.207.rsp",
+		"directory": "/home/main/Programs/unreal-engine/Engine/Source"
+	},
+	{
+		"file": "/home/main/Unreal_Projects/Base_System/Source/Base_System/Base_SystemGameModeBase.cpp",
+		"command": "/home/main/Programs/unreal-engine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @/home/main/Unreal_Projects/Base_System/.vscode/compileCommands_Default/Base_System.207.rsp",
+		"directory": "/home/main/Programs/unreal-engine/Engine/Source"
+	},
+	{
+		"file": "/home/main/Unreal_Projects/Base_System/Source/Base_System/Base_SystemGameModeBase.h",
+		"command": "/home/main/Programs/unreal-engine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @/home/main/Unreal_Projects/Base_System/.vscode/compileCommands_Default/Base_System.207.rsp",
+		"directory": "/home/main/Programs/unreal-engine/Engine/Source"
+	},
+	{
+		"file": "/home/main/Unreal_Projects/Base_System/Source/Base_System/TP_ThirdPerson/TP_ThirdPerson.h",
+		"command": "/home/main/Programs/unreal-engine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @/home/main/Unreal_Projects/Base_System/.vscode/compileCommands_Default/Base_System.207.rsp",
+		"directory": "/home/main/Programs/unreal-engine/Engine/Source"
+	},
+	{
+		"file": "/home/main/Unreal_Projects/Base_System/Source/Base_System/TP_ThirdPerson/TP_ThirdPersonCharacter.cpp",
+		"command": "/home/main/Programs/unreal-engine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @/home/main/Unreal_Projects/Base_System/.vscode/compileCommands_Default/Base_System.207.rsp",
+		"directory": "/home/main/Programs/unreal-engine/Engine/Source"
+	},
+	{
+		"file": "/home/main/Unreal_Projects/Base_System/Source/Base_System/TP_ThirdPerson/TP_ThirdPersonCharacter.h",
+		"command": "/home/main/Programs/unreal-engine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @/home/main/Unreal_Projects/Base_System/.vscode/compileCommands_Default/Base_System.207.rsp",
+		"directory": "/home/main/Programs/unreal-engine/Engine/Source"
+	},
+	{
+		"file": "/home/main/Unreal_Projects/Base_System/Source/Base_System/TP_ThirdPerson/TP_ThirdPersonGameMode.cpp",
+		"command": "/home/main/Programs/unreal-engine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @/home/main/Unreal_Projects/Base_System/.vscode/compileCommands_Default/Base_System.207.rsp",
+		"directory": "/home/main/Programs/unreal-engine/Engine/Source"
+	},
+	{
+		"file": "/home/main/Unreal_Projects/Base_System/Source/Base_System/TP_ThirdPerson/TP_ThirdPersonGameMode.h",
+		"command": "/home/main/Programs/unreal-engine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @/home/main/Unreal_Projects/Base_System/.vscode/compileCommands_Default/Base_System.207.rsp",
+		"directory": "/home/main/Programs/unreal-engine/Engine/Source"
+	}
+]
