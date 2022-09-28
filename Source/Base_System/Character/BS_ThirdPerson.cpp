@@ -10,23 +10,23 @@ ABS_ThirdPerson::ABS_ThirdPerson()
 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	this->StaticMesh = CreateDefaultSubobject<UStaticMeshComponent>(FName("deneme"));
+	this->StaticMesh = CreateDefaultSubobject<UStaticMeshComponent>(FName("bbbbbb"));
 	this->StaticMesh->SetupAttachment(GetMesh());
 
 }
 
-// Called when the game starts or when spawned
 void ABS_ThirdPerson::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
-// Called every frame
-void ABS_ThirdPerson::Tick(float DeltaTime)
+
+void ABS_ThirdPerson::Tick(float DeltaSeconds)
 {
-	Super::Tick(DeltaTime);
+	Super::Tick(DeltaSeconds);
+	GEngine->AddOnScreenDebugMessage(-1,5.f,FColor::Green,TEXT("sasadadas"),true);
 }
+
 
 // Called to bind functionality to input
 void ABS_ThirdPerson::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
