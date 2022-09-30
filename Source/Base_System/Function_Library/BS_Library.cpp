@@ -3,7 +3,8 @@
 
 #include "BS_Library.h"
 #include "DrawDebugHelpers.h"
-
+#include "VectorTypes.h"
+#include "Math/Color.h"
 
 // Sets default values
 ABS_Library::ABS_Library()
@@ -25,19 +26,26 @@ void ABS_Library::Tick(float DeltaTime)
 }
 
 FHitResult ABS_Library::MakeSingleLineTrace(
-	UWorld* UWorld, AActor* AIgnoreActor, float FDistance, bool bDrawDebugLine, bool bPrintHitActorName)
+	AActor* AIgnoreActor, float FDistance, 
+	bool bDrawDebugLine, FLinearColor DebugColor,
+	bool bPrintHitActorName, FLinearColor NameColor)
 {
+
+	UWorld *UWorld = GEngine->GameViewport->GetWorld();
 	FVector FStartPoint = AIgnoreActor->GetActorLocation();
 	FVector FEndPoint = (AIgnoreActor->GetActorForwardVector() * FDistance) + FStartPoint;
 	FHitResult FHitResult;
 	FCollisionQueryParams QueryParams;
 	QueryParams.AddIgnoredActor(AIgnoreActor);
-	UWorld->LineTraceSingleByChannel(FHitResult, FStartPoint, FEndPoint, ECollisionChannel::ECC_Camera, QueryParams);
+	UWorld->LineTraceSingleByChannel(FHitResult, FStartPoint, FEndPoint,
+		ECollisionChannel::ECC_Camera, QueryParams);
 	if (bDrawDebugLine)
-		DrawDebugLine(UWorld, FStartPoint, FEndPoint, FColor::Blue, false, 2.f);
+		DrawDebugLine(UWorld, FStartPoint, FEndPoint,
+			DebugColor.ToFColor(false), false, 2.f);
 	if (bPrintHitActorName && FHitResult.GetActor())
-		GEngine->AddOnScreenDebugMessage(1, 1.f, FColor::Blue,
-		                                 FString::Printf(TEXT("Actor : %s"), *FHitResult.GetActor()->GetName()));
+		GEngine->AddOnScreenDebugMessage(
+			1, 1.f, NameColor.ToFColor(false),
+			FString::Printf(TEXT("Actor : %s"), *FHitResult.GetActor()->GetName()));
 
 	return FHitResult;
 }

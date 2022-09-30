@@ -22,6 +22,10 @@ protected:
 public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-	FHitResult MakeSingleLineTrace(UWorld* UWorld,AActor* AIgnoreActor, float FDistance, 
-	                               bool bDrawDebugLine, bool bPrintHitActorName);
+
+	UFUNCTION(BlueprintCallable, Category= "Collision")
+	static UPARAM(DisplayName = "Hit Result") FHitResult MakeSingleLineTrace(
+		AActor* AIgnoreActor, float FDistance = 1000.f,
+	    bool bDrawDebugLine = true, FLinearColor DebugColor = FLinearColor::Blue,
+	    bool bPrintHitActorName = true, FLinearColor NameColor = FLinearColor::Blue);
 };
