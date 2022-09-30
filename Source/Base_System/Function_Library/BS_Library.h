@@ -3,10 +3,10 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/Actor.h"
+#include "GameFramework/Character.h"
 #include "BS_Library.generated.h"
 
-UCLASS()
+UCLASS(Config=Game)
 class BASE_SYSTEM_API ABS_Library : public AActor
 {
 	GENERATED_BODY()
@@ -22,4 +22,6 @@ protected:
 public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+	FHitResult MakeSingleLineTrace(UWorld* UWorld,AActor* AIgnoreActor, float FDistance, 
+	                               bool bDrawDebugLine, bool bPrintHitActorName);
 };

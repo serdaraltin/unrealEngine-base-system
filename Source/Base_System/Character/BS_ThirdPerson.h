@@ -6,6 +6,7 @@
 #include "GameFramework/Character.h"
 #include "BS_ThirdPerson.generated.h"
 
+
 UCLASS(Config=Game)
 class BASE_SYSTEM_API ABS_ThirdPerson : public ACharacter
 {
@@ -13,7 +14,6 @@ class BASE_SYSTEM_API ABS_ThirdPerson : public ACharacter
 
 public:
 	// Sets default values for this character's properties
-	UStaticMeshComponent *StaticMesh;
 	ABS_ThirdPerson();
 
 protected:
@@ -24,8 +24,6 @@ protected:
 	
 public:
 	// Called every frame
-
-
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 };
