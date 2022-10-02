@@ -1,4 +1,4 @@
-.git
+﻿.git
 .idea
 Saved
 Script
@@ -7,3 +7,5 @@ Intermediate
 .vscode
 Content
 Plugins/Developer/RiderSourceCodeAccess/Intermediate
+Content/__ExternalActors__
+Content/__ExternalObjects__
