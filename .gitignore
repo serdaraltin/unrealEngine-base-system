@@ -83,4 +83,4 @@ DerivedDataCache/*
 
 # External metarial
 Content/__ExternalActors__/*
-Content/__ExternalObjects__/*
+/Content/__ExternalObjects__/*
