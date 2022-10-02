@@ -27,5 +27,5 @@ public:
 	static UPARAM(DisplayName = "Hit Result") FHitResult MakeSingleLineTrace(
 		AActor* AIgnoreActor, float FDistance = 1000.f,
 	    bool bDrawDebugLine = true, FLinearColor DebugColor = FLinearColor::Blue,
-	    bool bPrintHitActorName = true, FLinearColor NameColor = FLinearColor::Blue);
+	    bool bPrintHitActorName = true, FLinearColor NameColor = FLinearColor::Blue, bool bRandomColor = false);
 };
