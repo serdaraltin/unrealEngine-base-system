@@ -47,6 +47,11 @@
 *.VC.db
 *.VC.opendb
 
+# External metarial
+Content/__ExternalActors__/*
+Content/__ExternalObjects__/*
+Content/__ExternalActors__/*
+
 # Precompiled Assets
 SourceArt/**/*.png
 SourceArt/**/*.tga
@@ -81,6 +86,3 @@ DerivedDataCache/*
 .directory
 .vscode/*
 
-# External metarial
-Content/__ExternalActors__/*
-Content/__ExternalObjects__/*

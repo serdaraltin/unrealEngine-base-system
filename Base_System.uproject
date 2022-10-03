@@ -1,4 +1,4 @@
-{
+﻿{
 	"FileVersion": 3,
 	"EngineAssociation": "{400B7988-76CB-47EE-83F3-E0473CFA5B8E}",
 	"Category": "",
@@ -19,28 +19,9 @@
 			]
 		},
 		{
-			"Name": "AssetSearch",
-			"Enabled": true
-		},
-		{
-			"Name": "MultiUserClient",
-			"Enabled": true
-		},
-		{
 			"Name": "GLTFImporter",
 			"Enabled": true
 		},
-		{
-			"Name": "CodeView",
-			"Enabled": true
-		},
-		{
-			"Name": "CodeEditor",
-			"Enabled": true
-		},
-		{
-			"Name": "MovieRenderPipeline",
-			"Enabled": true
-		}
+		
 	]
 }
