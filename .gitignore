@@ -82,5 +82,5 @@ DerivedDataCache/*
 .vscode/*
 
 # External metarial
-#Content/__ExternalActors__/*
-#Content/__ExternalObjects__/*
+Content/__ExternalActors__/*
+Content/__ExternalObjects__/*
