@@ -14,6 +14,3 @@ class ATP_ThirdPersonGameMode : public AGameModeBase
 public:
 	ATP_ThirdPersonGameMode();
 };
-
-
-
