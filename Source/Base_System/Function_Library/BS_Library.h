@@ -24,8 +24,12 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	UFUNCTION(BlueprintCallable, Category= "Collision")
-	static UPARAM(DisplayName = "Hit Result") FHitResult MakeSingleLineTrace(
-		AActor* AIgnoreActor, float FDistance = 1000.f,
-	    bool bDrawDebugLine = true, FLinearColor DebugColor = FLinearColor::Blue,
-	    bool bPrintHitActorName = true, FLinearColor NameColor = FLinearColor::Blue);
+	static UPARAM(DisplayName = "Hit Result") FHitResult SingleLineTraceViaActor(
+		AActor* AIgnoreActor,
+		float FDistance = 1000.f,
+	    bool bDrawDebugLine = true,
+	    FLinearColor DebugColor = FLinearColor::Blue,
+	    bool bPrintHitActorName = true,
+	    FLinearColor NameColor = FLinearColor::Blue,
+	    bool bRandomLineColor = false);
 };
