@@ -41,6 +41,7 @@ ABS_ThirdPersonCharacter::ABS_ThirdPersonCharacter()
 	FollowCameraComp->SetupAttachment(CameraBoomComp, USpringArmComponent::SocketName);
 	// Camera does not rotate to arm
 	FollowCameraComp->bUsePawnControlRotation = false; 
+	
 }
 
 void ABS_ThirdPersonCharacter::BeginPlay()
