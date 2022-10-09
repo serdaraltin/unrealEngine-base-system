@@ -61,7 +61,7 @@ FHitResult ABS_Library::SingleLineTraceViaActor(
 	if (bPrintHitActorName && FHitResult.GetActor())
 		GEngine->AddOnScreenDebugMessage(
 			1, 1.f, NameColor.ToFColor(false),
-			FString::Printf(TEXT("Actor : %s"), *FHitResult.GetActor()->GetName()));
+			FString::Printf(TEXT("Hit Actor : %s"), *FHitResult.GetActor()->GetName()));
 
 	// Return the hit result object reference
 	return FHitResult;

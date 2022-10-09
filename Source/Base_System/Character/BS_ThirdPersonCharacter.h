@@ -17,6 +17,7 @@ class BASE_SYSTEM_API ABS_ThirdPersonCharacter : public ACharacter
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class UCameraComponent *FollowCameraComp;
 
+	
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
