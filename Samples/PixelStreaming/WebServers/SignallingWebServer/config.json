@@ -11,7 +11,7 @@
 	"MatchmakerAddress": "",
 	"MatchmakerPort": "9999",
 	"PublicIp": "localhost",
-	"HttpPort": 8080,
+	"HttpPort": 80,
 	"HttpsPort": 443,
 	"StreamerPort": 8888,
 	"SFUPort": 8889,
