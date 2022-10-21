@@ -289,6 +289,7 @@ function populateDefaultProtocol() {
         "structure": ["uint8", "uint8", "double"]
     });
 
+
     fromStreamerMessages.add("QualityControlOwnership", 0);
     fromStreamerMessages.add("Response", 1);
     fromStreamerMessages.add("Command", 2);
@@ -994,6 +995,7 @@ function showConnectOverlay() {
         connect();
         startAfkWarningTimer();
     });
+
 }
 
 function showTextOverlay(text) {
@@ -1476,7 +1478,7 @@ function setupStats(){
             dot.style.fill = color;
         }
         qualityTip.innerHTML = statsText;
-
+        //INFO ALANI
         statsText += `<div>Duration: ${timeFormat.format(runTimeHours)}:${timeFormat.format(runTimeMinutes)}:${timeFormat.format(runTimeSeconds)}</div>`;
         statsText += `<div>Controls stream input: ${inputController === null ? "Not sent yet" : (inputController ? "true" : "false")}</div>`;
         statsText += `<div>Audio codec: ${aggregatedStats.hasOwnProperty('audioCodec') ? aggregatedStats.audioCodec : "Not set" }</div>`;
@@ -1755,6 +1757,7 @@ function resizePlayerStyle(event) {
 
     updateVideoStreamSize();
 
+ 
     if (playerElement.classList.contains('fixed-size')) {
         setupMouseAndFreezeFrame(playerElement)
         return;
@@ -1774,6 +1777,7 @@ function resizePlayerStyle(event) {
     }
 
     setupMouseAndFreezeFrame(playerElement)
+    
 }
 
 function setupMouseAndFreezeFrame(playerElement) {
@@ -1785,6 +1789,7 @@ function setupMouseAndFreezeFrame(playerElement) {
 }
 
 function updateVideoStreamSize() {
+   
     if (!matchViewportResolution) {
         return;
     }
@@ -1807,6 +1812,7 @@ function updateVideoStreamSize() {
         clearTimeout(resizeTimeout);
         resizeTimeout = setTimeout(updateVideoStreamSize, 1000);
     }
+
 }
 
 // Fix for bug in iOS where windowsize is not correct at instance or orientation change
@@ -2558,7 +2564,7 @@ function connect() {
     console.log(`Creating a websocket connection to: ${connectionUrl}`);
     ws = new WebSocket(connectionUrl);
     ws.attemptStreamReconnection = true;
-
+    
     ws.onmessagebinary = function(event) {
         if(!event || !event.data) { return; }
 
