@@ -32,4 +32,6 @@ public:
 	    bool bPrintHitActorName = true,
 	    FLinearColor NameColor = FLinearColor::Blue,
 	    bool bRandomLineColor = false);
+
+	
 };

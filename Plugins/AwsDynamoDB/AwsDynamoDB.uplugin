@@ -1,0 +1,30 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.2.9",
+	"FriendlyName": "AwsCore::DynamoDB",
+	"Description": "AWS DynamoDB",
+	"Category": "eelDev Plugins",
+	"CreatedBy": "eeldev",
+	"CreatedByURL": "https://eeldev.com",
+	"DocsURL": "https://eeldev.com",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/dd9b364c404b4ca49c851bbcf63e75ec",
+	"SupportURL": "https://eeldev.com",
+	"EngineVersion": "5.1.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "AwsDynamoDB",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit",
+			"PlatformAllowList": [
+				"Win64",
+				"Linux",
+				"Android",
+				"Mac",
+				"IOS"
+			]
+		}
+	]
+}

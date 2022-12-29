@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--LibAwsDynamoDB plugin additions-->
+<root xmlns:android="http://schemas.android.com/apk/res/android">
+  <init>
+    <log text="LibAwsDynamoDB init"/>
+    <setBool result="bSupported" value="false"/>
+    <isArch arch="arm64-v8a">
+      <setBool result="bSupported" value="true"/>
+    </isArch>
+  </init>
+
+  <resourceCopies>
+    <log text="Copying cacert.pem"/>
+    <copyFile src="$S(PluginDir)/cacert.pem" dst="$S(BuildDir)/cacert.pem" />
+  </resourceCopies>
+
+  <proguardAdditions>
+    <insert>
+      -dontwarn com.eelDev.**
+      -keep class com.eelDev.** { *; }
+      -keep interface com.eelDev.** { *; }
+
+      -dontwarn androidx.**
+      -keep class androidx.** { *; }
+      -keep interface androidx.** { *; }
+    </insert>
+  </proguardAdditions>
+
+  <androidManifestUpdates>
+    <addPermission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <addPermission android:name="android.permission.INTERNET"/>
+    <addPermission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+  </androidManifestUpdates>
+</root>

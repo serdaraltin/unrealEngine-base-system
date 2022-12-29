@@ -46,7 +46,6 @@ FHitResult ABS_Library::SingleLineTraceViaActor(
 	// Create a Single Channel Line Trace with parameters
 	UWorld->LineTraceSingleByChannel(FHitResult, FStartPoint, FEndPoint,
 		ECollisionChannel::ECC_Camera, QueryParams);
-
 	
 	if (bDrawDebugLine)
 		DrawDebugLine(UWorld, FStartPoint, FEndPoint,
