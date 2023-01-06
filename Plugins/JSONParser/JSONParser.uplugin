@@ -1,0 +1,30 @@
+{
+	"FileVersion": 3,
+	"Version": 208,
+	"VersionName": "2.8",
+	"FriendlyName": "JSONParser",
+	"Description": "Easy to use JSON parser",
+	"Category": "JSON",
+	"CreatedBy": "Socke",
+	"CreatedByURL": "",
+	"DocsURL": "http://virtualbird.de/ue4Doku/JSON/",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/8eda577c5b594d6b990f91b8dec8a014",
+	"SupportURL": "mailto:unrealmarketplace@virtualbird.de",
+	"EngineVersion": "5.1.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "JSONParser",
+			"Type": "Runtime",
+			"LoadingPhase": "PreLoadingScreen",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac",
+				"IOS",
+				"Android",
+				"Linux"
+			]
+		}
+	]
+}
