@@ -1,0 +1,44 @@
+{
+	"FileVersion": 3,
+	"Version": 0,
+	"VersionName": "3.2",
+	"FriendlyName": "Virtual Plugin",
+	"Description": "The plugin is used to transmit and receive data over IP between the Android device and PC",
+	"Category": "Other",
+	"CreatedBy": "ByOwls",
+	"CreatedByURL": "https://byowls.com/",
+	"DocsURL": "",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/8d872fba6cde41fc9288dd8baad6e49e",
+	"SupportURL": "info@byowls.com",
+	"EngineVersion": "5.1.0",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"Installed": true,
+	"RequiresBuildPlatform": true,
+	"Modules": [
+		{
+			"Name": "Camera",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit",
+			"PlatformAllowList": [
+				"Linux",
+				"Win64",
+				"Android"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "OnlineSubsystem",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemUtils",
+			"Enabled": true
+		},
+		{
+			"Name": "Takes",
+			"Enabled": true
+		}
+	]
+}

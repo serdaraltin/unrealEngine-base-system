@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{400B7988-76CB-47EE-83F3-E0473CFA5B8E}",
+	"EngineAssociation": "9F2C0165-C0A9-4F07-953B-3EDF214A7EDD",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -37,6 +37,14 @@
 			"Name": "FlatNodes",
 			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/b719437f3fb54c259b34227363df8cab"
+		},
+		{
+			"Name": "VirtualCamera",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Linux"
+			]
 		}
 	]
 }

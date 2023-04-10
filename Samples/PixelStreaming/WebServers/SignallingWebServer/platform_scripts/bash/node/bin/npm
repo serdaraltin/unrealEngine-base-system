@@ -1,1 +1,2 @@
-../lib/node_modules/npm/bin/npm-cli.js
+#!/usr/bin/env node
+require('../lib/cli.js')(process)

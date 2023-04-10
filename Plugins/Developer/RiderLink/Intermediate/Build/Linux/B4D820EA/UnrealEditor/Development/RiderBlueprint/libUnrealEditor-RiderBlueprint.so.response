@@ -1,0 +1,7 @@
+"/home/main/Unreal_Projects/Base_System/Plugins/Developer/RiderLink/Intermediate/Build/Linux/B4D820EA/UnrealEditor/Development/RiderBlueprint/Module.RiderBlueprint.cpp.o"
+ -soname="libUnrealEditor-RiderBlueprint.so"
+ -rpath-link="/home/main/Unreal_Projects/Base_System/Plugins/Developer/RiderLink/Binaries/Linux"
+ -L"/home/main/Programs/unreal-engine/Engine/Binaries/Linux"
+ -L"/home/main/Unreal_Projects/Base_System/Plugins/Developer/RiderLink/Binaries/Linux"
+ --start-group
+ --end-group
