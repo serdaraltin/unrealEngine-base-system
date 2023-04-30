@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "9F2C0165-C0A9-4F07-953B-3EDF214A7EDD",
+	"EngineAssociation": "5.1",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -44,6 +44,15 @@
 			"SupportedTargetPlatforms": [
 				"Win64",
 				"Linux"
+			]
+		},
+		{
+			"Name": "OpenXR",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Linux",
+				"Android"
 			]
 		}
 	]

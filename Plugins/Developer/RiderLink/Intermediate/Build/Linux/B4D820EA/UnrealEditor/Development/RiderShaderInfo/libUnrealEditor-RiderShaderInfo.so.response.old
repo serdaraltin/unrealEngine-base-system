@@ -1,6 +1,6 @@
-"/home/main/Unreal_Projects/Base_System 5.1/Plugins/Developer/RiderLink/Intermediate/Build/Linux/B4D820EA/UnrealEditor/Development/RiderShaderInfo/RiderShaderInfo.cpp.o"
+"/home/main/Unreal_Projects/Base_System/Plugins/Developer/RiderLink/Intermediate/Build/Linux/B4D820EA/UnrealEditor/Development/RiderShaderInfo/RiderShaderInfo.cpp.o"
  -soname="libUnrealEditor-RiderShaderInfo.so"
- -rpath-link="/home/main/Unreal_Projects/Base_System 5.1/Plugins/Developer/RiderLink/Binaries/Linux"
- -L"/home/main/Programs/unreal-engine/Engine/Binaries/Linux"
+ -rpath-link="/home/main/Unreal_Projects/Base_System/Plugins/Developer/RiderLink/Binaries/Linux"
+ -L"/mnt/Extend/Programs/unreal-engine/Engine/Binaries/Linux"
  --start-group
  --end-group
