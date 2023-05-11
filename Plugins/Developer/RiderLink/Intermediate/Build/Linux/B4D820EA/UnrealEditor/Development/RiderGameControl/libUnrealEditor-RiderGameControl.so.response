@@ -2,6 +2,6 @@
  -soname="libUnrealEditor-RiderGameControl.so"
  -rpath-link="/home/main/Unreal_Projects/Base_System/Plugins/Developer/RiderLink/Binaries/Linux"
  -L"/home/main/Unreal_Projects/Base_System/Plugins/Developer/RiderLink/Binaries/Linux"
- -L"/home/main/Programs/unreal-engine/Engine/Binaries/Linux"
+ -L"/mnt/Extend/Programs/unreal-engine/Engine/Binaries/Linux"
  --start-group
  --end-group
